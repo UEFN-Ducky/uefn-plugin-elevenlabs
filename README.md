@@ -16,3 +16,7 @@ Writes `deploy/elevenlabs-1.0.10.ducky-plugin.zip` (scripts/ and deploy/ are not
 ## Secrets
 
 Never commit tokens or keys. The app stores `elevenlabs_api_key` locally (DPAPI), not in this package.
+
+## License
+
+MIT. Copyright (c) 2026 Mindful Path Company, LLC. See [LICENSE](LICENSE).
