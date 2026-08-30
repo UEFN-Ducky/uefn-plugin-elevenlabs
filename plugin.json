@@ -1,9 +1,9 @@
 {
   "id": "elevenlabs",
   "kind": "plugin",
-  "version": "1.0.10",
+  "version": "1.0.12",
   "label": "ElevenLabs Voices",
-  "description": "Give your duckies real ElevenLabs voices. Paste your ElevenLabs API key, then pick a voice per ducky (or as the default) \u2014 premade voices plus any custom/cloned voices from your account.",
+  "description": "Give your duckies real ElevenLabs voices. Paste your ElevenLabs API key, then pick a voice per ducky (or as the default) — premade voices plus any custom/cloned voices from your account.",
   "min_app_version": "1.0.0",
   "default_enabled": false,
   "secret_keys": [
@@ -22,14 +22,14 @@
         "tab": "ElevenLabs",
         "id": "account",
         "title": "ElevenLabs account",
-        "description": "Paste your ElevenLabs API key (from elevenlabs.io \u2192 Profile \u2192 API Keys). It is stored encrypted on this device and never leaves it except to call ElevenLabs. Once set, your account's voices appear in every voice picker.",
+        "description": "Paste your ElevenLabs API key (from elevenlabs.io → Profile → API Keys). It is stored encrypted on this device and never leaves it except to call ElevenLabs. Once set, your account's voices appear in every voice picker.",
         "order": 10,
         "properties": [
           {
             "id": "elevenlabs_api_key",
             "type": "secret",
             "label": "API key",
-            "placeholder": "sk_\u2026",
+            "placeholder": "sk_…",
             "description": "Your ElevenLabs API key. Required for voices to work."
           },
           {
@@ -41,15 +41,15 @@
             "options": [
               {
                 "value": "eleven_multilingual_v2",
-                "label": "Multilingual v2 \u2014 best quality"
+                "label": "Multilingual v2 — best quality"
               },
               {
                 "value": "eleven_turbo_v2_5",
-                "label": "Turbo v2.5 \u2014 fast, ~half cost"
+                "label": "Turbo v2.5 — fast, ~half cost"
               },
               {
                 "value": "eleven_flash_v2_5",
-                "label": "Flash v2.5 \u2014 fastest, cheapest"
+                "label": "Flash v2.5 — fastest, cheapest"
               }
             ]
           }
