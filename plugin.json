@@ -1,7 +1,7 @@
 {
   "id": "elevenlabs",
   "kind": "plugin",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "label": "ElevenLabs Voices",
   "description": "Give your duckies real ElevenLabs voices. Paste your ElevenLabs API key, then pick a voice per ducky (or as the default) — premade voices plus any custom/cloned voices from your account.",
   "min_app_version": "1.0.0",
