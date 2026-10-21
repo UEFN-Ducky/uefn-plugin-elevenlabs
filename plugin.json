@@ -6,6 +6,7 @@
   "description": "Give your duckies real ElevenLabs voices. Paste your ElevenLabs API key, then pick a voice per ducky (or as the default) — premade voices plus any custom/cloned voices from your account.",
   "min_app_version": "1.0.0",
   "default_enabled": false,
+  "data_sharing": false,
   "secret_keys": [
     "elevenlabs_api_key"
   ],
